@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ccc;
+    background: #334;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background-color: #556;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 1rem;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #334;
+}
+
+legend {
+    padding: 10px;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
+}
+
+button {
+    background-color: #55b;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    color: #ccc;
+    padding: 1rem;
+    font-size: 2rem;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #88b;
+    color: #fff;
+    border-color: #fff;
+}
+
+button:active {
+    background-color: #337;
+    color: #999;
+    border-color: #999;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
