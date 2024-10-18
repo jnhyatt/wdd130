@@ -79,3 +79,13 @@ button:active {
 .column2 {
     grid-template-columns: 1fr 2fr;
 }
+
+header,
+footer {
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
